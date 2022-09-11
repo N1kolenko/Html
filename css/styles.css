@@ -120,10 +120,15 @@
 .oblst {
 	width: 100%;
 	height: 100%;
+	border-radius: 50%;
+	transition: .5s;
 }
 .panel .oblst:hover {
 	background-color: #fff;
-	border-radius: 50%;
+	
+}
+.panel svg path {
+	transition: .5s;
 }
 .panel svg:hover path{
 	fill: #52A5F2;
@@ -176,7 +181,7 @@
 	text-align: center;
 	position: relative;
 	z-index: 2;
-	transition: .5s;
+	transition: 1.2s;
 	overflow: hidden;
 }
 .button::before {
@@ -190,7 +195,7 @@
 	background: #52A5F2;
 	top: 0;
 	left: -168%;
-	transition: .6s;
+	transition: .9s;
 	z-index: -1;
 }
 
