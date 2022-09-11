@@ -6,7 +6,7 @@
   background-image: url(../images/background.png);
   background-repeat: repeat;
   background-position: center center;
-  background-attachment: fixed;
+/*  background-attachment: fixed;*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -19,11 +19,10 @@
 	padding: 0px 15px;
 }
 
-@media (max-width: 1370px) {
+@media screen and (max-width: 1370px) {
 	.container {
 		max-width: 1248px;
 	}
-
 }
 /*Бургер*/
 .menu-btn {
