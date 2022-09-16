@@ -1,0 +1,36 @@
+
+//---------------------------------------
+@import 'mixin';
+@import 'varebles';
+//---------------------------------------
+
+// Container
+.container {
+	@include container;
+}
+
+// row
+.row {
+	@include row;
+}
+
+// columns
+.col {
+	flex: 1 0 0%;
+}
+
+@for $i from 1 through 12 {
+	.col-#{$i} {
+		@include col($i);
+	}
+}
+
+@each $bp, $width in $grid-breakpoints {
+	@include media($width) {
+		@for $i from 1 through $grid-columns {
+			.col-#{$bp}-#{$i} {
+				@include col($i);
+			}
+		}
+	}
+}
