@@ -622,10 +622,10 @@
 body {
   background-color: #FCFCFC;
 }
-
-.head-page {
+body .head-page {
   position: absolute;
   width: 100%;
+  height: 930px;
   background-image: url(../img/bg.png);
   background-repeat: no-repeat;
   background-position: center center;
@@ -815,9 +815,16 @@ body {
   left: 10%;
 }
 
-.page-2 .title-page-2 {
+.page-2 {
   position: relative;
-  margin-top: 1050px;
+  top: 1050px;
+}
+.page-2 .title-page-2 {
+  display: block;
+  width: 470px;
+  height: 39px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .page-2 .title-page-2 h2 {
   font-family: "Ruslan Display";
@@ -827,4 +834,34 @@ body {
   line-height: 39px;
   /* identical to box height */
   text-align: center;
+}
+.page-2 .about-lavra {
+  margin-top: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 384px;
+  line-height: 384px;
+}
+.page-2 .about-lavra .video iframe {
+  border-radius: 24px;
+}
+.page-2 .about-lavra .discription {
+  line-height: normal;
+  display: inline-block;
+  vertical-align: middle;
+}
+.page-2 .about-lavra .discription p {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
 }

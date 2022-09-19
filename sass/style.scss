@@ -2,18 +2,20 @@
 
 body {
 	background-color: #FCFCFC;
+	 .head-page {
+	 	position: absolute;
+	 	width: 100%;
+	 	height: 930px;
+		background-image: url(../img/bg.png);
+		background-repeat: no-repeat;
+		background-position: center center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
 }
- .head-page {
- 	position: absolute;
- 	width: 100%;
-	background-image: url(../img/bg.png);
-	background-repeat: no-repeat;
-	background-position: center center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
+
 .nav {
 	height: 44px;
 	margin-top: 44px;
@@ -160,10 +162,6 @@ body {
 		content: '';
 		width: 130%;
 		height: 650%;
-		// -webkit-transform: skew(-50deg);
-		//    -moz-transform: skew(-50deg);
-		//      -o-transform: skew(-50deg);
-		// background: #52A5F2;
 		top: -115px;
 		left: -107%;
 		transition: .9s;
@@ -189,10 +187,14 @@ body {
 	}
 }
 .page-2 {
-
+	position: relative;
+	top: 1050px;
 	.title-page-2 {
-		position: relative;
-		margin-top: 1050px;
+		display: block;
+		width: 470px;
+		height: 39px;
+		margin-left: auto;
+    	margin-right: auto;
 		h2 {
 			font-family: 'Ruslan Display';
 			font-style: normal;
@@ -200,8 +202,34 @@ body {
 			font-size: 36px;
 			line-height: 39px;
 			/* identical to box height */
-
 			text-align: center;
+		}
+	}
+	.about-lavra {
+		margin-top: 90px;
+		display: flex;
+		flex-flow: row;
+		justify-content: space-between;
+		height: 384px;
+    	line-height: 384px;
+
+		.video {
+			iframe {
+				border-radius: 24px;
+			}
+
+		}
+		.discription {
+			line-height: normal;
+    		display: inline-block;
+    		vertical-align: middle;
+    		p {
+    			font-family: 'Ubuntu';
+				font-style: normal;
+				font-weight: 400;
+				font-size: 24px;
+				line-height: 28px;
+    		}
 		}
 	}
 }
