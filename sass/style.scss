@@ -6,7 +6,6 @@ body {
  .head-page {
  	position: absolute;
  	width: 100%;
- 	height: 930px;
 	background-image: url(../img/bg.png);
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -37,11 +36,11 @@ body {
 				span::after {
 					position: absolute;
 					top: 50%; margin-top: -2px;
-					left: 50%; margin-left: -12.5px;
-					width: 25px;
+					left: 50%; margin-left: -12.835px;
+					width: 25.67px;
 					height: 4px;
 					background-color: black;
-					border-radius: 25%;
+					border-radius: 2px;
 					transition: .5s;
 				}
 				span::before,
@@ -51,11 +50,11 @@ body {
 				}
 				span::before {
 					transform: translateY(-9px);
-					width: 14px;
+					width: 14.67px;
 				}
 				span::after {
 					transform: translateY(9px);
-					width: 25px;
+					width: 25.67px;
 				}
 			}
 			.obl:hover span {
@@ -67,7 +66,7 @@ body {
 			}
 			.obl:hover span::after {
 				background-color: #52A5F2;
-				width: 14px;
+				width: 14.67px;
 
 			}
 		}
@@ -151,30 +150,58 @@ body {
 		display: block;
 		text-align: center;
 		position: relative;
-		z-index: 2;
+		z-index: 1;
 		transition: 1.2s;
 		overflow: hidden;
+
 	}
 	.btn::before {
 		position: absolute;
 		content: '';
 		width: 130%;
-		height: 150%;
-		-webkit-transform: skew(-50deg);
-		   -moz-transform: skew(-50deg);
-		     -o-transform: skew(-50deg);
-		background: #52A5F2;
-		top: 0;
-		left: -168%;
+		height: 650%;
+		// -webkit-transform: skew(-50deg);
+		//    -moz-transform: skew(-50deg);
+		//      -o-transform: skew(-50deg);
+		// background: #52A5F2;
+		top: -115px;
+		left: -107%;
 		transition: .9s;
 		z-index: -1;
+		background-image: url(../img/wave.svg);
+		background-repeat: no-repeat;
+		background-position: center center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		transform: rotate(90deg);
+
 	}
+
 
 	.btn:hover {
 		color: #fff;
 
 	}
 	.btn:hover::before {
-		left: -20%;
+		left: 10%;
+	}
+}
+.page-2 {
+
+	.title-page-2 {
+		position: relative;
+		margin-top: 1050px;
+		h2 {
+			font-family: 'Ruslan Display';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 36px;
+			line-height: 39px;
+			/* identical to box height */
+
+			text-align: center;
+		}
 	}
 }
