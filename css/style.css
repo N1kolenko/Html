@@ -1071,3 +1071,153 @@ body .head-page {
   margin-left: auto;
   margin-right: auto;
 }
+
+.page-4 .title-page-4 {
+  position: relative;
+  margin-top: 120px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.page-4 .title-page-4 h2 {
+  font-family: "Ruslan Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 39px;
+  text-align: center;
+  color: #000000;
+}
+.page-4 .methods-pay {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 60px;
+  width: 100%;
+}
+.page-4 .methods-pay .internet {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 44px;
+  gap: 60px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 5.81448px 17.4434px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 5.81448px 17.4434px rgba(0, 0, 0, 0.15);
+  border-radius: 24px;
+}
+.page-4 .methods-pay .internet .txt .htxt {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 32px;
+  color: #000000;
+}
+.page-4 .methods-pay .internet .txt .ltxt {
+  margin-top: 30.53px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+.page-4 .methods-pay .sms {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 44px;
+  gap: 60px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 5.81448px 17.4434px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 5.81448px 17.4434px rgba(0, 0, 0, 0.15);
+  border-radius: 24px;
+}
+.page-4 .methods-pay .sms .txt .htxt {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 32px;
+  color: #000000;
+}
+.page-4 .methods-pay .sms .txt .ltxt {
+  margin-top: 30.53px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+.page-4 .methods-pay .legal-entities {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 44px;
+  gap: 60px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 5.81448px 17.4434px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 5.81448px 17.4434px rgba(0, 0, 0, 0.15);
+  border-radius: 24px;
+}
+.page-4 .methods-pay .legal-entities .txt .htxt {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 32px;
+  color: #000000;
+}
+.page-4 .methods-pay .legal-entities .txt .ltxt {
+  margin-top: 30.53px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}

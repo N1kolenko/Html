@@ -424,3 +424,122 @@ body {
 		}
 	}
 }
+.page-4 {
+	.title-page-4 {
+		position: relative;
+		margin-top: 120px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		h2 {
+			font-family: 'Ruslan Display';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 36px;
+			line-height: 39px;
+			text-align: center;
+			color: #000000;
+		}
+	}
+	.methods-pay {
+		display: flex;
+		flex-flow: column nowrap;
+		align-items: center;
+		justify-content: center;
+		margin-top: 60px;
+		width: 100%;
+		.internet {
+			display: flex;
+			flex-flow: row nowrap;
+			align-items: center;
+			justify-content: center;
+			padding: 44px;
+			gap: 60px;
+			background: #FFFFFF;
+			box-shadow: 0px 5.81448px 17.4434px rgba(0, 0, 0, 0.15);
+			border-radius: 24px;
+
+			.txt {
+				.htxt {
+					font-family: 'Ubuntu';
+					font-style: normal;
+					font-weight: 700;
+					font-size: 28px;
+					line-height: 32px;
+					color: #000000;
+				}
+				.ltxt {
+					margin-top: 30.53px;
+					font-family: 'Ubuntu';
+					font-style: normal;
+					font-weight: 400;
+					font-size: 24px;
+					line-height: 28px;
+					color: #000000;
+				}
+			}
+		}
+		.sms {
+			margin-top: 30px;
+			display: flex;
+			flex-flow: row nowrap;
+			align-items: center;
+			justify-content: center;
+			padding: 44px;
+			gap: 60px;
+			background: #FFFFFF;
+			box-shadow: 0px 5.81448px 17.4434px rgba(0, 0, 0, 0.15);
+			border-radius: 24px;
+			.txt {
+				.htxt {
+					font-family: 'Ubuntu';
+					font-style: normal;
+					font-weight: 700;
+					font-size: 28px;
+					line-height: 32px;
+					color: #000000;
+				}
+				.ltxt {
+					margin-top: 30.53px;
+					font-family: 'Ubuntu';
+					font-style: normal;
+					font-weight: 400;
+					font-size: 24px;
+					line-height: 28px;
+					color: #000000;
+				}
+			}
+		}
+		.legal-entities {
+			margin-top: 30px;
+			display: flex;
+			flex-flow: row nowrap;
+			align-items: center;
+			justify-content: center;
+			padding: 44px;
+			gap: 60px;
+			background: #FFFFFF;
+			box-shadow: 0px 5.81448px 17.4434px rgba(0, 0, 0, 0.15);
+			border-radius: 24px;
+			.txt {
+				.htxt {
+					font-family: 'Ubuntu';
+					font-style: normal;
+					font-weight: 700;
+					font-size: 28px;
+					line-height: 32px;
+					color: #000000;
+				}
+				.ltxt {
+					margin-top: 30.53px;
+					font-family: 'Ubuntu';
+					font-style: normal;
+					font-weight: 400;
+					font-size: 24px;
+					line-height: 28px;
+					color: #000000;
+				}
+			}
+		}
+	}
+} 
