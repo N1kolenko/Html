@@ -821,7 +821,6 @@ body .head-page {
 }
 .page-2 .title-page-2 {
   display: block;
-  width: 470px;
   height: 39px;
   margin-left: auto;
   margin-right: auto;
@@ -842,11 +841,14 @@ body .head-page {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-flow: row;
-          flex-flow: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   height: 384px;
   line-height: 384px;
 }
@@ -864,4 +866,208 @@ body .head-page {
   font-weight: 400;
   font-size: 24px;
   line-height: 28px;
+}
+.page-2 .about-lavra .discription .next {
+  position: relative;
+  margin-left: 82%;
+  top: 52px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #2685DD;
+  text-decoration: none;
+}
+
+.page-3 {
+  position: relative;
+  margin-top: 1204px;
+}
+.page-3 .title-page-3 {
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.page-3 .title-page-3 h2 {
+  font-family: "Ruslan Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 39px;
+  text-align: center;
+  color: #000000;
+}
+.page-3 .discription-page-3 {
+  margin-top: 60px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.page-3 .discription-page-3 p {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #000000;
+}
+.page-3 .stay-investor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 60px;
+  width: 100%;
+  height: 350px;
+}
+.page-3 .stay-investor .buy-block-1 {
+  padding: 36px 36px 36px 36px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
+  border-radius: 24px;
+  width: inherit;
+  height: 278px;
+}
+.page-3 .stay-investor .buy-block-1 .title-in-block-1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.page-3 .stay-investor .buy-block-1 .title-in-block-1 p {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 32px;
+  text-align: center;
+  color: #000000;
+}
+.page-3 .stay-investor .buy-block-1 .collection {
+  margin-top: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.page-3 .stay-investor .buy-block-1 .collection .available p {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #000000;
+}
+.page-3 .stay-investor .buy-block-1 .collection .goal p {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #000000;
+}
+.page-3 .stay-investor .buy-block-1 .butt-pos {
+  position: relative;
+  margin-top: 107px;
+  display: block;
+  width: 247px;
+  height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.page-3 .stay-investor .buy-block-2 {
+  padding: 36px 36px 36px 36px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
+  border-radius: 24px;
+  width: inherit;
+  height: 278px;
+}
+.page-3 .stay-investor .buy-block-2 .title-in-block-2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.page-3 .stay-investor .buy-block-2 .title-in-block-2 p {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 32px;
+  text-align: center;
+  color: #000000;
+}
+.page-3 .stay-investor .buy-block-2 .dicrpn {
+  margin-top: 48px;
+}
+.page-3 .stay-investor .buy-block-2 .dicrpn p {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #000000;
+}
+.page-3 .stay-investor .buy-block-2 .butt-pos-2 {
+  position: relative;
+  display: block;
+  width: 247px;
+  height: 60px;
+  margin-top: -36px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.page-3 .stay-investor .buy-block-3 {
+  padding: 36px 36px 36px 36px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
+  border-radius: 24px;
+  width: inherit;
+  height: 278px;
+}
+.page-3 .stay-investor .buy-block-3 .title-in-block-3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.page-3 .stay-investor .buy-block-3 .title-in-block-3 p {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 32px;
+  text-align: center;
+  color: #000000;
+}
+.page-3 .stay-investor .buy-block-3 .butt-pos-3 {
+  position: relative;
+  display: block;
+  width: 247px;
+  height: 60px;
+  margin-top: 187px;
+  margin-left: auto;
+  margin-right: auto;
 }
